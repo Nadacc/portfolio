@@ -1,0 +1,132 @@
+.skill-head{
+    background-color: burlywood;
+    border-radius: 75px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.skill-para{
+    color: black;
+
+    font-size: 16px;
+    text-align: center
+}
+
+#project {
+    width: 50%;
+    margin: auto; /* Center align on larger screens */
+}
+
+.proj-head{
+    background-color: burlywood;
+    border-radius: 75px;
+    height: 300px;
+}
+
+.proj-para{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
+#project{
+    width: 50%;
+}
+.proj-head {
+    background-color: burlywood;
+    border-radius: 75px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    #home h1 span {
+        font-size: 30px;
+    }
+
+    #about p, .proj-para, .skill-para {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+
+    .skill-head {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 15px; /* Reduce padding */
+        margin-bottom: 20px;
+    }
+
+    .skill-head h2 {
+        font-size: 20px; /* Smaller heading */
+    }
+
+    .skill-head .bx {
+        font-size: 50px; /* Smaller icon size */
+    }
+
+    .proj-para {
+        font-size: 14px;
+    }
+
+    #project {
+        width: 90%; /* Increase width to fit screen */
+    }
+
+    .proj-head {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 15px;
+        margin-bottom: 20px; /* Add space between project boxes */
+    }
+
+    .proj-head h3 {
+        font-size: 24px; /* Smaller heading for projects */
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .skill-head h2 {
+        font-size: 18px;
+    }
+
+    .skill-head .bx {
+        font-size: 40px;
+    }
+
+    .skill-para {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .proj-para {
+        font-size: 12px;
+    }
+
+    #project {
+        width: 100%; /* Full width on very small screens */
+    }
+
+    .proj-head h3 {
+        font-size: 20px;
+    }
+}
